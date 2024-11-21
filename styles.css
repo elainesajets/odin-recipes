@@ -23,13 +23,7 @@ body {
   padding: 10px;
 }
 
-img {
-  object-fit: cover;
-  object-position: center center;
-  width: 400px;
-  /* height: 400px; */
-}
-
+/* front page */
 #overview {
   padding: 20px;
   text-align: center;
@@ -43,6 +37,10 @@ img {
   background-color: black;
   padding: 2px;
   margin-top: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
 }
 
 #overview {
@@ -57,6 +55,38 @@ img {
   padding: 10px;
 }
 
+/* pages */
+
+img {
+  object-fit: cover;
+  object-position: center center;
+  width: 400px;
+  /* height: 400px; */
+}
+
+.title-photo{
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.description {
+  border: 2px solid black;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+}
+
+.description h3 {
+  background-color: white;
+  width: 396px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
 .instructions {
   padding-bottom: 10px;
   margin-left: 10px;
@@ -68,23 +98,9 @@ img {
   padding-top: 5px
 }
 
-.description {
-  /* text-align: center; */
-  border: 2px solid black;
-  width: 400px;
 
-}
 
-.description h3 {
-  background-color: white;
-  width: 396px;
-}
 
-.title-photo{
-  display: inline-block;
-  margin: auto;
-
-}
 
 /*
 .description {
